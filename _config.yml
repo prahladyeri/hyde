@@ -11,7 +11,7 @@ title:            Prahlad Yeri
 tagline:          'Freelance Programmer and Writer'
 description:      'Freelance Programmer and Writer'
 url:              https://hyde.appsdepot.cf
-baseurl:          https://hyde.appsdepot.cf/
+baseurl:          /
 
 author:
   name:           'Prahlad Yeri'
