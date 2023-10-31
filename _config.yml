@@ -10,7 +10,7 @@ permalink:        blog/:year/:month/:title.html
 title:            Prahlad Yeri
 tagline:          'Freelance Programmer and Writer'
 description:      'Freelance Programmer and Writer'
-url:              https://prahladyeri.github.io
+url:              https://hyde.appsdepot.cf
 baseurl:          /
 
 author:
