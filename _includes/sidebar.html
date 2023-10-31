@@ -8,7 +8,11 @@
       </h1>
       <p class="lead">{{ site.description }}</p>
     </div>
-
+<pre>
+page.url:{{page.url}}
+site.baseurl:{{site.baseurl}}
+equality: {{page.url == site.baseurl}}
+</pre>
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
