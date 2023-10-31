@@ -2,7 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="{{ / }}">
+        <a href="/">
           {{ site.title }}
         </a>
       </h1>
@@ -10,12 +10,6 @@
     </div>
 
     <nav class="sidebar-nav">
-```
-URL is {{site.url}}<br>
-BASEURL is {{site.baseurl}}<br>
-PAGEURL is {{page.url}}<br>
-
-```
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
       {% comment %}
